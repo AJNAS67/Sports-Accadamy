@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: "Caveat", cursive;
+  color: #555;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+  position: relative;
+}
+.home .img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .header {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(46, 50, 71);
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home .header .img-logo {
+  width: 100px;
+}
+.home .header ul li {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 30px;
+  color: aqua;
+}
+.home .header ul li:hover {
+  background-image: linear-gradient(to right, rgba(46, 50, 71, 0), rgba(0, 68, 255, 0.8));
+  color: antiquewhite;
+}
+
+.Team-head {
+  text-align: center;
+  padding: 30px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 30px;
+}
+.team .card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px 0px rgb(0, 0, 0);
+  transition: transform 0.5s;
+}
+.team .card .card-image img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team .card:hover {
+  transform: translateY(-5px);
+}
+
+.legends {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, rgba(46, 50, 71, 0), rgba(0, 68, 255, 0.8));
+}
+.legends .l-card {
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 0 10px 0px rgb(0, 0, 0);
+  transition: transform 0.5s;
+}
+.legends .l-card h3 {
+  font-family: "Caveat", cursive;
+  color: #555;
+}
+.legends .l-card .fas {
+  color: #ff523b;
+}
+.legends .l-card .fa {
+  color: #ff523b;
+}
+.legends .l-card img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  padding: 10px;
+}
+.legends .l-card:hover {
+  transform: translateX(-10px);
+  background-color: rgb(241, 237, 237);
+}/*# sourceMappingURL=style.css.map */
